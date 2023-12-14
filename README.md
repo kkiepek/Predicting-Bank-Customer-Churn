@@ -12,7 +12,23 @@ We utilized a bank customer churn dataset from Kaggle, which includes banks in F
 
 
 # Modeling and Evaluation
-Models we used: LogisticRegression, DecisionTree, RandomForest
+We used three different models: LogisticRegression, DecisionTree, and RandomForest
+
+Using the testing data, we were able to see the accuracy of each model. 
+
+Estimated accuracy of each model:
+Logistic Regression: 0.781
+Decision Tree: 0.774
+Random Forest: 0.840
+
+As shown by these results, the logistic regression and decision tree models performed roughly the same. 
+
+If we were to just assume every customer did not churn, then the accuracy would be approximately 79.6% (0.796) as this was the percentage of customers who did not churn in the dataset. As shown by the results of the logistic regression and decision tree, these models performed lower than this, making them unviable choices. 
+
+However, the random forest model had an accuracy score of about 84% (0.840). This indicates that the random forest model was able to predict whether a customer would churn or not with a higher degree of accuracy, which makes it the most effective model out of all three. 
+
+
+
 
 # Conclusion
 In conclusion, our project aimed at leveraging Machine Learning models to predict and prevent customer churn in banks across France, Germany, and Spain, and has yielded valuable insights. The random forest model, with its high accuracy during testing, identified age, estimated salary, credit score, and balance, as the top factors influencing churn.
