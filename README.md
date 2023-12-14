@@ -16,10 +16,10 @@ We used three different models: LogisticRegression, DecisionTree, and RandomFore
 
 Using the testing data, we were able to see the accuracy of each model. 
 
-Estimated accuracy of each model:
-Logistic Regression: 0.781
-Decision Tree: 0.774
-Random Forest: 0.840
+Estimated accuracy of each model:  
+Logistic Regression: 0.781  
+Decision Tree: 0.774  
+Random Forest: 0.840  
 
 As shown by these results, the logistic regression and decision tree models performed roughly the same. 
 
