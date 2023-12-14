@@ -15,5 +15,11 @@ We utilized a bank customer churn dataset from Kaggle, which includes banks in F
 Models we used: LogisticRegression, DecisionTree, RandomForest
 
 # Conclusion
+In conclusion, our project aimed at leveraging Machine Learning models to predict and prevent customer churn in banks across France, Germany, and Spain, and has yielded valuable insights. The random forest model, with its high accuracy during testing, identified age, estimated salary, credit score, and balance, as the top factors influencing churn.
+ 
+With an overall churn rate of approximately 20%, signifying a substantial portion of customers at risk, our strategy now focuses on key determinants such as age and financial metrics. Recognizing that customer churn has significant financial implications, our approach aims to minimize churn, foster customer retention, boost satisfaction, and potentially drive revenue growth through retained customers.
+ 
+We emphasize the importance of effective intervention strategies. Given the ease of changing banks in the era of online banking and mobile applications, predictive insights from our model offer a strategic advantage. By targeting influential features identified by the random forest model in marketing campaigns and promotions, banks can enhance overall banking performance and mitigate the costly process of acquiring new customers.
+
 # Repository Navigation
 The main branch has all of our final deliverables, including the dataset, readme, and jupyter notebook. The branches in the repo include the
